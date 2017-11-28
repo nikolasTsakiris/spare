@@ -1,4 +1,4 @@
-#!/home/nikolai/Desktop/eBate/eBateenv/bin/python
+#!/home/hustic/spare/eBateenv/bin/python
 
 import sys
 import getopt

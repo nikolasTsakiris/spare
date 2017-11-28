@@ -8,10 +8,22 @@ from django.db import models
 # Create your models here.
 
 
-class Debater(models.Model):
+class DeBox(models.Model):
+	#author = models.ForeignKey(Account)
+	#content = models.TextField()
+
+	#created_at = models.DateTimeField(auto_now_add=True)
+	#update_at = models.DateTimeField(auto_now=True)
+
+	def __unicode__(self):
+		return '{0}'.format(self.content)
+
+"""class Debater(models.Model):
     username = models.ForeignKey('auth.User')
     name = models.CharField(max_length=20)
     surname = models.CharField(max_length=20)
+"""
+
 
 """    def idBlessing(self):
         self.id = 
